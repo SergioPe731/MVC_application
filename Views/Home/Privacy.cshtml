@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Личный кабинет";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Это страница для авторизованных пользователей.</p>
+@{
+    List<string> LstStudents = new List<string>();
+    List<int> LstGroup = new List<int>();
+    LstStudents.Add("Иванов");
+    LstStudents.Add("Петров");
+    LstStudents.Add("Симонов");
+    LstStudents.Add("Свелаков");
+    LstStudents.Add("Паустовский");
+    LstStudents.Add("Лисицын");
+
+    LstGroup.Add(200);
+    LstGroup.Add(200);
+    LstGroup.Add(300);
+    LstGroup.Add(200);
+    LstGroup.Add(300);
+    LstGroup.Add(200);
+
+}
+<h>Здесь представлен список студентов</h>
+<h2>Первый студент</h2>
+<p>@LstStudents[0], @LstGroup[0] группа</p>
+<h2>Второй студент</h2>
+<p>@LstStudents[1], @LstGroup[1] группа</p>
+<h2>Третий студент</h2>
+<p>@LstStudents[2], @LstGroup[2] группа</p>
+<h2>Четвёртый студент</h2>
+<p>@LstStudents[3], @LstGroup[3] группа</p>
