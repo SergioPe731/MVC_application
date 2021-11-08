@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Страница приветствия";
+}
+@model LoginModel
+<div class="text-center">
+    <h1 class="display-4">Добрый день, пользователь!</h1>
+
+    <p>Этот ресурс создан для тестирования новой системы авторизации</a>.</p>
+    <h2 class="display-3">Войти в личный кабинет</h2>
+
+
+    @using (Html.BeginForm("Login", "Home", null, FormMethod.Post))
+    {
+        @Html.LabelFor(x => Model.login)
+        @Html.EditorFor(x => Model.login)
+        @Html.LabelFor(x => Model.password)
+        @Html.EditorFor(x => Model.password, new { type = "password" })
+        <input type="submit" value="Авторизоваться">
+    }
+
+
+
+    @* <p>Введите пароль:</p>
+        <input type="password" />
+        <p>********************************</p>
+        <button>Авторизоваться</button>*@
+</div>
