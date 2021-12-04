@@ -37,7 +37,6 @@ C:\Users\Сергей\source\repos\FirstWeb\obj\Debug\netcoreapp3.1\FirstWeb.gen
 C:\Users\Сергей\source\repos\FirstWeb\obj\Debug\netcoreapp3.1\FirstWeb.csproj.CopyComplete
 C:\Users\Сергей\Downloads\MVC_application-main\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Сергей\Downloads\MVC_application-main\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Сергей\Downloads\MVC_application-main\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Сергей\Downloads\MVC_application-main\bin\Debug\netcoreapp3.1\FirstWeb.exe
 C:\Users\Сергей\Downloads\MVC_application-main\bin\Debug\netcoreapp3.1\FirstWeb.deps.json
 C:\Users\Сергей\Downloads\MVC_application-main\bin\Debug\netcoreapp3.1\FirstWeb.runtimeconfig.json
@@ -71,3 +70,7 @@ C:\Users\Сергей\Downloads\MVC_application-main\obj\Debug\netcoreapp3.1\Fir
 C:\Users\Сергей\Downloads\MVC_application-main\obj\Debug\netcoreapp3.1\FirstWeb.pdb
 C:\Users\Сергей\Downloads\MVC_application-main\obj\Debug\netcoreapp3.1\FirstWeb.genruntimeconfig.cache
 C:\Users\Сергей\Downloads\MVC_application-main\obj\Debug\netcoreapp3.1\FirstWeb.csproj.CopyComplete
+C:\Users\Сергей\Downloads\MVC_application-main\obj\Debug\netcoreapp3.1\Razor\Views\Home\Error.cshtml.g.cs
+C:\Users\Сергей\Downloads\MVC_application-main\obj\Debug\netcoreapp3.1\FirstWeb.csproj.AssemblyReference.cache
+C:\Users\Сергей\Downloads\MVC_application-main\obj\Debug\netcoreapp3.1\FirstWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Сергей\Downloads\MVC_application-main\obj\Debug\netcoreapp3.1\scopedcss\bundle\FirstWeb.styles.css

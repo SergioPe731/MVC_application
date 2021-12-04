@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using FirstWeb.Models;
 using FirstWeb.Servises;
 using Microsoft.AspNetCore.Http;
+using FirstWeb.Models;
 
 namespace FirstWeb.Controllers
 {
@@ -32,17 +33,23 @@ namespace FirstWeb.Controllers
             ViewData["Test"] = "My test text";
             return View();
         }
+
+
+        
         public IActionResult Index(LoginModel model)
         {
-            HttpContext.Session.SetString("name", model.login);
+            
             model.Success = _userService?.CheckCredentials(model.login, model.password);
             if (model.Success.HasValue && model.Success.Value)  //model.Seccess ?? false
             {
-                return RedirectToAction("Index", "Home");
+                // return View("Privacy", model);
+                return RedirectToAction("Privacy", "Home");
             }
 
             return View(model);
         }
+       
+       
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
