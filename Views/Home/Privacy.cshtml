@@ -1,10 +1,14 @@
 ﻿
 @model LoginModel
-@{ ViewData["Title"] = "Личный кабинет"; }
 
-<h1>@ViewData["Title"]</h1>
+
+<h></h>
 
 <p>Это страница для авторизованных пользователей.</p>
-@{ }
-<h>Здесь представлена информация об авторизованном студенте</h>
+<h1>@ViewData["CurrentUser"]</h1>
+@using (Html.BeginForm("Privacy", "Home", null, FormMethod.Post))
+{
+   <input type="submit" value="Выйти из учётной записи">
+ }
+
 

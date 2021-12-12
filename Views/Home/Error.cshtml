@@ -1,5 +1,13 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@model LoginModel
+
+<head>
+    Ошибка авторизации!
+</head>
+<p>@Model.login</p>
+<p1>@Model.password</p1>
+
+@using (Html.BeginForm("Error", "Home", null, FormMethod.Post))
+{
+    <input type="submit" value="Выйти на страницу авторизации">
+   
 }

@@ -7,6 +7,8 @@ namespace FirstWeb.Servises
 {
     public class UserService
     {
+       
+     
         public bool CheckCredentials(string login, string password)
         {
             dbUsers userObj = new dbUsers();
@@ -15,11 +17,13 @@ namespace FirstWeb.Servises
                
                 if (login == oneUser.login && password == oneUser.password)
                 {
+                    
                     return true;
                 }
           
             }
             //return (login == "User" || password == "Password");
+           
             return false;
         }
     }
